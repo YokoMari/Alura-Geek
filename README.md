@@ -29,11 +29,11 @@ El proyecto está organizado en los siguientes archivos y carpetas:
 - **`style.css:`** Archivo CSS que definen los estilos de la página, garantizando una interfaz atractiva y responsiva.
 
 ## Link del Proyecto
-➡️ [💙Protafolio Web](https://yokomari.github.io/Alura-Portafolio/)
+➡️ [💙Alura Geek](https://yokomari.github.io/Alura-Geek/)
 
 ## Diseño de la Interfaz
 <div align="center">
-<img src="https://github.com/YokoMari/Alura-Portafolio/blob/d8fa44166f9954cf774cbe0b4d3ffcec9b476581/assets/img/portafolio.png" width="80%" />
+<img src="https://github.com/YokoMari/Alura-Geek/blob/3b1848309e9f85ffa7520d3021cef08ed8659564/assets/Captura%20de%20pantalla%202025-01-20%20000354.png" width="80%" />
 </div>
 
 
@@ -41,7 +41,7 @@ El proyecto está organizado en los siguientes archivos y carpetas:
 
 <div  align="center">
   <h3>Diseño Responsivo</h3>
-  <img src="https://github.com/YokoMari/Alura-Portafolio/blob/d8fa44166f9954cf774cbe0b4d3ffcec9b476581/assets/img/1735016263523.png" width="80%"/>
+  <img src="https://github.com/YokoMari/Alura-Geek/blob/3b1848309e9f85ffa7520d3021cef08ed8659564/assets/1737349476268.png" width="80%"/>
 </div>
 
 ## Contáctame
