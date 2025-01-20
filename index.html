@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura-Geek</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/corazon5.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <div class="header__title">
+        <img
+          class="header__title-logo"
+          src="assets/corazon5.png"
+          alt="Pixel Heart"
+        />
+        <img
+          class="header__title-logo"
+          src="assets/corazon5.png"
+          alt="Pixel Heart"
+        />
+        <img
+          class="header__title-logo"
+          src="assets/corazon5.png"
+          alt="Pixel Heart"
+        />
+        <h1>AluraGeek</h1>
+      </div>
+    </header>
+
+    <main id="main__container">
+      <section class="form">
+        <h2 class="form__heading">AGREGAR PRODUCTO:</h2>
+        <form id="product-form">
+          <!-- <label for="nombre"></label> -->
+          <input
+            type="text"
+            id="product-name"
+            name="nombre"
+            placeholder="Nombre del Producto"
+            required
+            maxlength="30"
+          />
+          <br />
+          <!-- <label for="precio">Precio:</label> -->
+          <input
+            type="text"
+            id="product-price"
+            name="precio"
+            placeholder="Precio del Producto"
+            required
+            maxlength="6"
+            oninput="this.value = this.value.replace(/[^0-9.,]/g, '').slice(0, 6)"
+          />
+          <br />
+          <!-- <label for="imagen">Imagen:</label> -->
+          <div class="input-wrapper">
+            <input
+              type="text"
+              id="product-image"
+              name="imagen"
+              placeholder="Link de la Imagen del Producto"
+              required
+            />
+            <i class="fa-solid fa-folder file-icon" id="file-picker-icon"></i>
+            <input
+              type="file"
+              id="file-picker"
+              accept="image/*"
+              style="display: none;"
+            />
+          </div>
+          <br />
+          <div class="form__buttons">
+            <button class="form__button form__button--submit" type="submit" onclick="ClearFormInputs();">
+              Enviar
+            </button>
+            <button class="form__button form__button--reset" type="reset" id="reset-button">
+              Limpiar
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="products">
+        <h2 class="products__heading">MIS PRODUCTOS:</h2>
+        <ul class="products__list">
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__banner">
+        <div class="footer__banner-title">
+          <img
+            class="footer__banner-logo"
+            src="assets/corazon5.png"
+            alt="Pixel Heart"
+          />
+          <img
+            class="footer__banner-logo"
+            src="assets/corazon5.png"
+            alt="Pixel Heart"
+          />
+          <img
+            class="footer__banner-logo"
+            src="assets/corazon5.png"
+            alt="Pixel Heart"
+          />
+          <h2>Alura-Geek</h2>
+        </div>
+        <p>DESARROLLADO con ❤️ por <a href="https://github.com/YokoMari" target="_blank" rel="noopener noreferrer">Maria Garcia</a></p>
+        <h4>ALURA LATAM - 2024</h4>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/63b63f7197.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
+
+<!-- TO DO -->
+
+ <!-- Add option to upload user files -->
